@@ -1,1 +1,0 @@
-# student_result_analysis_mini_project
