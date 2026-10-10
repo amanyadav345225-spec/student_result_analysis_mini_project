@@ -1,0 +1,86 @@
+📊 Student Result Analysis using Python & Pandas
+Overview
+
+This project is a simple student result analysis built using Python, Pandas, and NumPy.
+The goal of this project was to practice data analysis by working with a real dataset and
+applying common Pandas operations to extract useful information.
+
+The analysis includes finding toppers, calculating percentages, identifying students who passed
+or failed, generating subject-wise statistics, and creating a cleaned dataset for further use.
+
+Dataset
+
+The dataset contains marks of 1000 students in the following subjects:
+
+Hindi
+English
+Science
+Mathematics
+History
+Geography
+
+It also includes the total marks and other student-related information.
+
+Features
+
+The project performs the following analyses:
+
+Find the highest scoring student.
+Find the lowest scoring student.
+Find the highest marks in each subject.
+Find the student who scored the highest in each subject.
+Find the lowest marks in each subject.
+Find the student who scored the lowest in each subject.
+Calculate each student's percentage.
+Identify students who passed all subjects.
+Identify students who failed based on subject marks or total marks.
+Find students who achieved distinction.
+Generate subject-wise statistics (highest, lowest, and average marks).
+Calculate the overall pass percentage.
+Calculate the overall fail percentage.
+Display the top 10 students based on percentage.
+Display the bottom 10 students based on percentage.
+List students scoring above 80%.
+List students scoring below 40%.
+Export the processed dataset to a new CSV file.
+Technologies Used
+Python
+Pandas
+NumPy
+Concepts Practiced
+
+While building this project, I practiced:
+
+Reading CSV files
+Data cleaning
+Boolean indexing
+Filtering data
+Sorting data
+Finding maximum and minimum values
+Creating new columns
+Working with .loc, .idxmax(), and .idxmin()
+Using .nlargest() and .nsmallest()
+Basic statistical analysis
+Exporting processed data
+Output
+
+The project generates a new file named:
+
+results_analysis.csv
+
+which contains the cleaned dataset along with the calculated percentage.
+
+What I Learned
+
+This project helped me become more comfortable with using Pandas for real 
+datasets instead of only practicing individual functions. It improved my understanding of
+filtering data, applying multiple conditions, calculating statistics, and organizing analysis in a structured way.
+
+Future Improvements
+
+Some improvements I plan to add in future versions:
+
+Data visualization using Matplotlib and Seaborn
+Grade classification
+Interactive dashboard
+More detailed performance analysis
